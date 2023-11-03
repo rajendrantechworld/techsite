@@ -40,6 +40,8 @@ h2{
 
 .card{
     margin-bottom: 30px;
+    box-shadow: 4px 6px 10px #40b9a7;
+    border-radius: 4px;
 }
 
 .card1{
@@ -53,6 +55,8 @@ h2{
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
+    box-shadow: 3px 4px 8px #40b9a7;
+    border-radius: 4px;
  
 }
 .card img:hover{
