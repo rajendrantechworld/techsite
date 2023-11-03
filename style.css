@@ -41,6 +41,20 @@ h2{
 .card{
     margin-bottom: 30px;
 }
+
+.card1{
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+ 
+}
 .card img:hover{
     width: 270px;
    
@@ -69,7 +83,7 @@ P:hover{
 
 footer{
     position: fixed;
-    bottom: 0;
+    bottom: -10px;
     left: 0;
     right: 0;
 }
@@ -116,6 +130,20 @@ footer{
 
     
 }
+
+
+
+.link{
+    color: #fff !important;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.link a{
+    color: #fff !important;
+}
+
 .welcome{
     animation-name: example;
     animation-duration: 4s;
